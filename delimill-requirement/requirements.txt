@@ -1,0 +1,57 @@
+DELIMILL
+
+Description
+The requirement is to create online product listing which showcase items of different categories.
+
+
+Skills required
+-- Html
+-- CSS
+-- Javascript
+
+
+Requirement details
+User interface (use bootstrap)
+-- home page should show CARDS
+-- CARDS grouped by category [OPTIONAL]
+-- CARD should show image, title, description, category, edit button, delete button
+-- UI should have a add / create button which should open a modal having form with input fields as follows
+    -- modal title should be ADD / CREATE
+    -- title (max 30 char) [input text]
+    -- description (max 500 char) [input textarea]
+    -- image URL [input text]
+    -- category(electronics, books, furniture, movies) [input select / dropdown]
+    -- SUBMIT button
+    -- CANCEL button
+-- on click of EDIT button on the CARD a modal should open
+    -- modal title should be EDIT / UPDATE
+    -- title field should be prefilled
+    -- description field should be prefilled
+    -- image URL field should be prefilled
+    -- category dropdown should be prefilled
+    -- UPDATE button
+    -- CANCEL button
+-- on click of DELETE button on the CARD item should be removed
+
+
+Working
+-- show all available items on the home page
+-- user should be able to create / add an item
+-- user should be able to retrieve items
+-- user should be able to update / edit an item
+-- user should be able to delete / edit an item
+
+
+Coding standards
+-- Please add an eslint configuration file before starting the project. Follow this tutorial to add the same.
+-- It is expected that proper coding standards will be followed. The code should be properly indented, clean and reusable.
+-- Please add code comments wherever necessary.
+-- Push your code on github. Follow proper git standards, use this link for the same.
+
+
+Project Expectations
+-- Coding practices will be checked rigorously. Implementation of ES6 concepts will be expected.
+-- Clean and reusable code is expected.
+-- Please commit your code with proper message and push your code daily, so that the progress can be checked on a regular basis.
+-- The project github repository is expected to have a proper name for the Project.
+Please create a Readme file at the end of the project and add proper details there.
