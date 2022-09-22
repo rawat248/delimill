@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Delimil</a>
+            <form class="d-flex" role="search">
+                <!-- <button class="btn btn-outline-success" type="submit">Add</button> -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#add">
+                    Add
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="title">Title</label>
+                                <input type="text" id="title"><br><br>
+                                <label for="description">Description</label>
+                                <textarea id="description"></textarea><br><br>
+                                <label for="image">Image URL</label>
+                                <input type="text" id="image"><br><br>
+                                <!-- <label for="category">Category</label>
+                                <select name="name" id="category">
+                                    <option value="selected">Selected</option>
+                                    <option value="electronics">Electronics</option>
+                                    <option value="books">Books</option>
+                                    <option value="furniture">Furniture</option>
+                                    <option value="movies">Movies</option>
+                                </select> -->
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                    id="submit">Submit</button>
+                                <button type="button" class="btn btn-primary" id="cancel">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#edit">
+                    Edit
+                </button>
+                <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <label for="title">Title</label>
+                                <input type="text"><br><br>
+                                <label for="description">Description</label>
+                                <textarea></textarea><br><br>
+                                <label for="image">Image URL</label>
+                                <input type="text"><br><br>
+                                <label for="category">Category</label>
+                                <select name="name" id="name">
+                                    <option value="selected">Selected</option>
+                                    <option value="electronics">Electronics</option>
+                                    <option value="books">Books</option>
+                                    <option value="furniture">Furniture</option>
+                                    <option value="movies">Movies</option>
+                                </select>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary">Update</button>
+                                <button type="button" class="btn btn-primary">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal">
+                    Delete
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+
+</html>
